@@ -36,11 +36,11 @@ const App = () => {
   return (
     <section className="w-full py-28 px-4 sm:px-6 lg:px-8 text-center">
       <div className="max-w-2xl mx-auto space-y-8">
-        <h2 className="text-3xl sm:text-3xl md:text-6xl font-serif font-bold text-white leading-tight">
+        <h2 className="text-3xl md:text-6xl font-serif font-bold text-black md:text-white leading-tight">
           Password Generator
         </h2>
 
-        <p className="text-lg md:text-xl text-gray-100 font-light max-w-xl mx-auto leading-relaxed">
+        <p className="text-lg md:text-xl text-black md:text-gray-100 font-light max-w-xl mx-auto leading-relaxed">
           Forget weak logins — create{" "}
           <span className="font-semibold text-red-500">
             unbreakable passwords{" "}
